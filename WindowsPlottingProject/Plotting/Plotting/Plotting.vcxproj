@@ -148,21 +148,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\Plotting.h" />
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\resource.h" />
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\settings.h" />
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\structure.h" />
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\tool.h" />
     <ClInclude Include="minicsv.h" />
+    <ClInclude Include="Plotting.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="structure.h" />
+    <ClInclude Include="tool.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\Plotting.aps" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\Plotting.rc" />
+    <None Include="Plotting.aps" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Plotting.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

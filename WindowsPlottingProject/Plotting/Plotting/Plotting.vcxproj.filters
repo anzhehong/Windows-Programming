@@ -15,37 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\main.cpp">
+    <ClInclude Include="minicsv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plotting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\tool.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\structure.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\settings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\Plotting.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="minicsv.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\Plotting.aps">
+    <None Include="Plotting.aps">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\WinProj5\Plotting\Plotting\Plotting\Plotting.rc">
+    <ResourceCompile Include="Plotting.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
   </ItemGroup>
