@@ -172,7 +172,7 @@ BOOL CALLBACK DiaProc(HWND hwnd, UINT message,WPARAM wParam, LPARAM lParam)
 			hBitmap = (HBITMAP)SelectObject(hMemDC, hBitmap);
 			CreateBMPFile(hwnd, "Output.bmp", CreateBitmapInfoStruct(hwnd, hBitmap), hBitmap, hMemDC);
 			ReleaseDC(hwnd, hDC);
-			MessageBox(hwnd, "保存成功", NULL, NULL);
+			MessageBox(hwnd, "保存成功!\n文件为/plotting/Output.bmp", NULL, NULL);
 			break;
 		}
 		/*
@@ -208,7 +208,7 @@ BOOL CALLBACK DiaProc(HWND hwnd, UINT message,WPARAM wParam, LPARAM lParam)
 				}
 			}
 			OutputDebugString(mathExpression[2].c_str());
-			MessageBox(hwnd, "读取成功", NULL, NULL);
+			MessageBox(hwnd, "读取成功！\n文件为/plotting/testCSV.csv", NULL, NULL);
 			PostMessage(myPlotting->getChildWindow(), WM_PAINT, 0, 0);
 			break;
 		}
